@@ -24,5 +24,8 @@ cors origin ?
 
 async vs defer ?
 
+These are key words used to before the sorce to acess and run the code from server in differ manner .
+async :  it loads the source from server while html code is executing . while the source is loaded it stops execution of the html content and executes the sorce code after that completes again executes the html code.
 
+defer : it loads the source code from server while the browser enginee executes the html code then it stopes for complition of html code and executes the source code.
 
