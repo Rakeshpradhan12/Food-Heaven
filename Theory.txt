@@ -15,9 +15,14 @@ content delivery netowork.
 usesd to faster dalivery of respoonse.
 It store the data in nearby location which is searced by other users and send data in lesss time .
 
-cross origin ?
+cors origin ?
+ cors stands for crross origin resorce sharing 
 
-
+ if the browser request server for some data and it is not present in that domain but present in another domain cors comes into picture the browser again make a http request to  another 
+ domain if it allowses to share the resource it fetch the data and combine give as response to the browser enginee. 
+ 
 
 async vs defer ?
+
+
 
