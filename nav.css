@@ -1,0 +1,30 @@
+#container
+{
+    
+    width: 100%;
+    background-color: rgba(43, 154, 45, 0.874);
+    text-align: center;
+    padding: 5px;
+    margin-top: 40px;
+    border-radius: 5px;
+
+    
+}
+#l1
+{
+    font-size: 40px;
+    text-align: center;
+    margin-right: 560px;
+    margin-left: 20px;
+    
+}
+input{
+    height: 40px;
+    font-size: 40px;
+    border-radius: 5px;
+    border: 2px solid rgb(22, 198, 207);
+}
+#l2{
+    font-size: 40px;
+    margin-left: 450px;
+}
