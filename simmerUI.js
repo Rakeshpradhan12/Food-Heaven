@@ -1,13 +1,18 @@
+ import photo from "../assets/image/my_photo.jpeg";
  const Simmer=()=>{
     return(
-        
-        <div className="card">
-        <img src={"#"}/>
-        <h2>{}</h2>
-        <h3>{}</h3>
-        <h3>{}</h3>
-        <h4>{} </h4>
+        <>
+        <div>
+         <input type="text"/>
+         <button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </button>   
+        </div>   
+        <div  className="restaurantList">
+         { Array(20).fill("").map((e,index)=><div className="shimmer" key={index}>
+            </div>)  
+         }
         </div>
+        </>
         
     )
     }
